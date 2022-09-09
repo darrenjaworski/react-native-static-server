@@ -19,7 +19,7 @@ import fi.iki.elonen.SimpleWebServer;
 public class FPStaticServerModuleImpl {
   private final ReactApplicationContext reactContext;
 
-  public static final String NAME = "RNStaticServer";
+  public static final String NAME = "StaticServer";
 
   private File www_root = null;
   private int port = 9999;

@@ -13,7 +13,7 @@ declare global {
 // This selects between TurboModule and legacy RN library implementation.
 const FPStaticServer = global.__turboModuleProxy
   ? require('./NativeStaticServer').default
-  : NativeModules.RNStaticServer;
+  : NativeModules.StaticServer;
 
 type Options = {
   keepAlive?: boolean;

@@ -1,6 +1,6 @@
 #import "FPStaticServer.h"
 
-@implementation RNStaticServer
+@implementation StaticServer
 
 @synthesize bridge = _bridge;
 

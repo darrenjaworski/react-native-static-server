@@ -9,7 +9,7 @@
 
 #ifdef RCT_NEW_ARCH_ENABLED
   #import <NativeStaticServerSpec/NativeStaticServerSpec.h>
-  @interface NativeStaticServer() <NativeStaticServerSpec> {
+  @interface StaticServer() <NativeStaticServerSpec> {
     GCDWebServer* _webServer;
   }
     @property(nonatomic, retain) NSString *localPath;
@@ -21,7 +21,7 @@
     @property (assign) BOOL keep_alive;
   @end
 #else
-  @interface RNStaticServer : NSObject <RCTBridgeModule> {
+  @interface StaticServer : NSObject <RCTBridgeModule> {
     GCDWebServer* _webServer;
   }
     @property(nonatomic, retain) NSString *localPath;
