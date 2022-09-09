@@ -85,7 +85,7 @@
   "codegenConfig": {
     "name": "NativeStaticServerSpec",
     "type": "modules",
-    "jsScrsDir": "./src",
+    "jsSrcsDir": "src",
     "android": {
       "javaPackageName": "com.futurepress.staticserver"
     }
